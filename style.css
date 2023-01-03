@@ -1,0 +1,23 @@
+.titleform{
+    width: 60%;
+    border: 2px solid white;
+    background-color: white;
+}
+
+.subtitleform{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.syarat{
+    overflow-y: scroll;
+    border: 1px solid rgb(80, 80, 80);
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 600px) { 
+    .titleform{
+        width: 80%;
+    }
+ }
